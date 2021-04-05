@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+}
+/* .title{
+
+} */
+.navLinkContainer{
+    display: flex;
+    list-style: none;
+}
+.navLink{
+    text-decoration: none;
+    margin-left: 1em;
+}
+.navLink:hover{
+    border-bottom: 2px solid red;
+}

@@ -1,14 +1,17 @@
+import styles from "./navigation.module.css";
+
 const Navigation = () => {
    return (
-   <div className = "main-nav">
+   <div className = {styles.mainNav}>
        <div className="title">
-           <h3>Components Library</h3>
+           <h3>Component Snippets</h3>
        </div>
-        <ul>
-            <li><a href="#">Buttons</a></li>
-            <li><a href="#">Cards</a></li>
-            <li><a href="#">Footers</a></li>
-            <li><a href="#">NavBars</a></li>
+        <ul className={styles.navLinkContainer}>
+            <li><a href="#" className = {styles.navLink}>Home</a></li>
+            <li><a href="#" className = {styles.navLink}>Buttons</a></li>
+            <li><a href="#" className = {styles.navLink}>Cards</a></li>
+            <li><a href="#" className = {styles.navLink}>Footers</a></li>
+            <li><a href="#" className = {styles.navLink}>NavBars</a></li>
         </ul>
     </div>
     )
