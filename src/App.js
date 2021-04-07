@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-      Hello World
-      This is Julian
+      <div className="component-links">Buttons</div>
+      <div className="component-links">Cards</div>
+      <div className="component-links">Footers</div>
+      <div className="component-links">NavBars</div>
     </div>
   );
 }

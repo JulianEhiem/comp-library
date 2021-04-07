@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgb(143, 171, 223);
     padding: 0.5rem 2.5rem;
 }
 /* .title{
