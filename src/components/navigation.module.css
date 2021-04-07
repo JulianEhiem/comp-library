@@ -18,6 +18,7 @@
 .navLink{
     text-decoration: none;
     margin-left: 1em;
+    color: black;
 }
 .navLink:hover{
     border-bottom: 2px solid red;
