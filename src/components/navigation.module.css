@@ -4,11 +4,16 @@
 }
 .mainNav{
     display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(66, 130, 248);
     padding: 0.5rem 2.5rem;
     color: white;
+    box-sizing: border-box;
 }
 /* .title{
 
@@ -25,4 +30,8 @@
 }
 .navLink:hover{
     border-bottom: 2px solid white;
+}
+
+.component-links{
+    background-color: gray;
 }
