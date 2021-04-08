@@ -6,8 +6,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(143, 171, 223);
+    background-color: rgb(66, 130, 248);
     padding: 0.5rem 2.5rem;
+    color: white;
 }
 /* .title{
 
@@ -19,8 +20,9 @@
 .navLink{
     text-decoration: none;
     margin-left: 1em;
-    color: black;
+    padding-bottom: 0.2rem;
+    color: white;
 }
 .navLink:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid white;
 }
