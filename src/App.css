@@ -5,10 +5,14 @@
   justify-content: center;
 }
 .components-container{
+  display: flex;
   width: 500px;
   height: 500px;
   background-color: lightblue;
   align-self: center;
   justify-self: center;
 }
-
+.component-links{
+  width: 150px;
+  height: 100px;
+}
