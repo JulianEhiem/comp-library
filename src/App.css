@@ -6,13 +6,18 @@
 }
 .components-container{
   display: flex;
+  gap: 1rem;
+  flex-direction: column;
   width: 500px;
   height: 500px;
   background-color: lightblue;
   align-self: center;
   justify-self: center;
+  justify-content: center;
 }
 .component-links{
-  width: 150px;
-  height: 250px;
+  width: 90%;
+  height: 100px;
+  background-color: grey;
+  align-self: center;
 }
