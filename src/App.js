@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <Navigation/>
       <div className="components-container">
-        <div className="component-links">Buttons</div>
-        <div className="component-links">Cards</div>
-        <div className="component-links">Footers</div>
-        <div className="component-links">NavBars</div>
+        <div className="component-links"><h2>Buttons</h2></div>
+        <div className="component-links"><h2>Cards</h2></div>
+        <div className="component-links"><h2>Footers</h2></div>
+        <div className="component-links"><h2>NavBars</h2></div>
       </div>
     </div>
   );

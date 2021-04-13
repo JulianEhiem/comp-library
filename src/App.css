@@ -16,8 +16,14 @@
   justify-content: center;
 }
 .component-links{
+  display: flex;
+  flex-direction: column;
   width: 90%;
   height: 100px;
   background-color: grey;
   align-self: center;
+  justify-content: center;
+}
+.component-links > h2{
+  color: rgb(61, 61, 61);
 }
