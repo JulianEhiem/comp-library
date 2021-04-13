@@ -11,7 +11,19 @@ const isLargerScreen = useMediaQuery ({query: '(min-device-width: 1441px)'})
 
    return (
    <div className = {styles.mainNav}>
+       {isMobile && <> 
        <div className="title">
+           <h3>Component Snippets</h3>
+       </div>
+        <ul className={styles.navLinkContainer}>
+            <li><a href="#" className = {styles.navLink}>Yeah</a></li>
+            <li><a href="#" className = {styles.navLink}>Buttons</a></li>
+            <li><a href="#" className = {styles.navLink}>Cards</a></li>
+            <li><a href="#" className = {styles.navLink}>Footers</a></li>
+            <li><a href="#" className = {styles.navLink}>NavBars</a></li>
+        </ul> </>}
+    
+       {/* <div className="title">
            <h3>Component Snippets</h3>
        </div>
         <ul className={styles.navLinkContainer}>
@@ -20,7 +32,7 @@ const isLargerScreen = useMediaQuery ({query: '(min-device-width: 1441px)'})
             <li><a href="#" className = {styles.navLink}>Cards</a></li>
             <li><a href="#" className = {styles.navLink}>Footers</a></li>
             <li><a href="#" className = {styles.navLink}>NavBars</a></li>
-        </ul>
+        </ul> */}
     </div>
     )
 }
