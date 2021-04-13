@@ -1,6 +1,14 @@
+import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import styles from "./navigation.module.css";
 
 const Navigation = () => {
+const isMobile = useMediaQuery ({query: '(max-device-width: 425px)'})
+const isTablet = useMediaQuery ({query: '(max-device-width: 768px)'})
+const isLaptop = useMediaQuery ({query: '(max-device-width: 1440px)'})
+const isLargerScreen = useMediaQuery ({query: '(min-device-width: 1441px)'})
+
+
    return (
    <div className = {styles.mainNav}>
        <div className="title">
